@@ -1,0 +1,234 @@
+{
+  "el-row": {
+    "attributes": ["gutter", "type", "justify", "align", "tag"],
+    "subtags": ["el-col"],
+    "description": ""
+  },
+  "el-col": {
+    "attributes": ["span", "offset", "push", "xs", "sm", "md", "lg", "tag"],
+    "defaults": [":span"]
+  },
+  "el-button": {
+    "attributes": ["type", "size", "plain", "loading", "disabled", "icon", "autofocus", "native-type"],
+    "defaults": ["type"]
+  },
+  "el-radio": {
+    "attributes": ["label", "disabled", "name"],
+    "defaults": ["label"]
+  },
+  "el-radio-group": {
+    "attributes": ["size", "fill", "text-color", "change"],
+    "defaults": ["v-model"],
+    "subtags": ["el-radio"]
+  },
+  "el-radio-button": {
+    "attributes": ["label", "disabled"],
+    "defaults": ["label"]
+  },
+  "el-checkbox": {
+    "attributes": ["label", "true-label", "false-label", "name", "checked", "indeterminate", "disabled"],
+    "defaults": ["label"]
+  },
+  "el-checkbox-group": {
+    "attributes": ["size", "fill", "text-color", "min", "max", "change"],
+    "defaults": ["v-model"],
+    "subtags": ["el-checkbox"]
+  },
+  "el-checkbox-button": {
+    "attributes": ["label"],
+    "defaults": ["label"]
+  },
+  "el-input": {
+    "attributes": ["value", "placeholder", "disabled", "custom-item", "icon", "fetch-suggestions", "popper-class", "trigger-on-focus", "on-icon-click", "click", "blur", "focus", "change"],
+    "defaults": ["v-model", "placeholder"]
+  },
+  "el-autocomplete": {
+    "attributes": ["type", "value", "maxlength", "minlength", "placeholder", "disabled", "size", "icon", "rows", "autosize", "auto-complete", "name", "readonly", "max", "min", "step", "resize", "autofocus", "form", "on-icon-click", "select"],
+    "defaults": ["v-model", "placeholder"]
+  },
+  "el-input-number": {
+    "attributes": ["value", "min", "max", "step", "size", "disabled", "controls", "debounce", "change"],
+    "defaults": ["v-model", "placeholder"]
+  },
+  "el-select": {
+    "attributes": ["multiple", "disabled", "size", "clearable", "multiple-limit", "name", "placeholder", "filterable", "allow-create", "filter-method", "remote", "remote-method", "loading", "loading-text", "no-match-text", "no-data-text", "popper-class", "default-first-option", "change", "visible-change", "remote-tag"],
+    "defaults": ["v-model", "placeholder"],
+    "subtags": ["el-option"]
+  },
+  "el-option-group": {
+    "attributes": ["label", "disabled"],
+    "defaults": ["v-for", ":key"],
+    "subtags": ["el-option"]
+  },
+  "el-option": {
+    "attributes": ["value", "label", "disabled"],
+    "defaults": ["v-for", ":key"]
+  },
+  "el-cascader": {
+    "attributes": ["options", "props", "value", "popper-class", "placeholder", "disabled", "clearable", "expand-trigger", "show-all-levels", "filterable", "debounce", "change-on-select", "size", "change", "active-item-change"],
+    "defaults": [":options", "v-model"]
+  },
+  "el-switch": {
+    "attributes": ["disabled", "width", "on-icon-class", "off-icon-class", "on-text", "off-text", "on-value", "off-value", "on-color", "off-color", "name", "change"],
+    "defaults": ["v-model"]
+  },
+  "el-slider": {
+    "attributes": ["min", "max", "disabled", "step", "show-input", "show-input-controls", "show-stops", "show-tooltip", "format-tooltip", "range", "vertical", "height", "change"],
+    "defaults": ["v-model"]
+  },
+  "el-time-select": {
+    "attributes": ["readonly", "editable", "disabled", "clearable", "size", "placeholder", "value", "align", "popper-class", "picker-options", "vertical", "height", "change"],
+    "defaults": ["v-model", "placeholder"]
+  },
+  "el-time-picker": {
+    "attributes": ["readonly", "editable", "disabled", "clearable", "size", "placeholder", "value", "align", "popper-class", "is-range", "vertical", "height", "change"],
+    "defaults": ["v-model", "placeholder"]
+  },
+  "el-date-picker": {
+    "attributes": ["readonly", "editable", "disabled", "clearable", "size", "placeholder", "type", "format", "align", "popper-class", "picker-options", "range-separator", "default-value", "change"],
+    "defaults": ["v-model", "placeholder"]
+  },
+  "el-upload": {
+    "attributes": ["action", "headers", "multiple", "data", "name", "width", "name", "with-credentials", "show-file-list", "drag", "accept", "on-preview", "on-remove", "on-success", "on-error", "on-progress", "on-change", "before-upload", "list-type", "auto-upload", "file-list", "http-request", "disabled"],
+    "defaults": ["action"],
+    "subtags": ["el-button"]
+  },
+  "el-rate": {
+    "attributes": ["max", "disabled", "allow-half", "low-threshold", "high-threshold", "colors", "void-color", "disabled-void-color", "icon-classes", "void-icon-class", "disabled-void-icon-class", "show-text", "text-color", "texts", "text-template", "change"],
+    "defaults": ["v-model"]
+  },
+  "el-color-picker": {
+    "attributes": ["show-alpha", "color-format", "change"],
+    "defaults": ["v-model"]
+  },
+  "el-transfer": {
+    "attributes": ["data", "filterable", "filter-placeholder", "filter-method", "titles", "button-texts", "render-content", "footer-format", "props", "left-default-checked", "right-default-checked", "change"],
+    "defaults": ["v-model", ":data"]
+  },
+  "el-form": {
+    "attributes": ["model", "rules", "inline", "label-position", "label-width", "label-suffix", "show-message"],
+    "defaults": ["model"],
+    "subtags": ["el-form-item"]
+  },
+  "el-form-item": {
+    "attributes": ["label", "prop", "label-width", "required", "rules", "error", "show-message"],
+    "defaults": ["label"]
+  },
+  "el-table": {
+    "attributes": ["data", "height", "max-height", "stripe", "border", "fit", "show-header", "highlight-current-row", "current-row-key", "row-class-name", "row-style", "row-key", "empty-text", "default-expand-all", "expand-row-keys", "default-sort", "tooltip-effect", "show-summary", "sum-text", "summary-method", "select", "select-all", "selection-change", "cell-mouse-enter", "cell-mouse-leave", "cell-click", "cell-click", "cell-dbclick", "row-click", "row-contextmenu", "row-dbclick", "header-click", "sort-change", "filter-change", "current-change", "header-draggend", "expand"],
+    "defaults": [":data"],
+    "subtags": ["el-table-column"]
+  },
+  "el-table-column": {
+    "attributes": ["type", "column-key", "label", "prop", "width", "min-width", "fixed", "render-header", "sortable", "sort-method", "resizable", "formatter", "show-overflow-tooltip", "align", "header-align", "class-name", "label-class-name", "selectable", "reserve-selection", "filters", "filter-placement", "filter-multiple", "filter-method", "filtered-value"],
+    "defaults": ["label"]
+  },
+  "el-tag": {
+    "attributes": ["type", "closable", "close-transition", "hit", "color", "close"],
+    "defaults": ["type"]
+  },
+  "el-progress": {
+    "attributes": ["percentage", "type", "stroke-width", "text-inside", "status", "width", "show-text"],
+    "defaults": ["percentage"]
+  },
+  "el-tree": {
+    "attributes": ["data", "empty-text", "node-key", "props", "load", "render-content", "highlight-current", "current-node-key", "default-expand-all", "expand-on-click-node", "auto-expand-parent", "default-expanded-keys", "show-checkbox", "check-strictly", "default-checked-keys", "filter-node-method", "accordion", "indent", "node-click", "check-change", "current-change", "node-expand", "node-collapse"],
+    "defaults": [":data"]
+  },
+  "el-pagination": {
+    "attributes": ["small", "page-size", "total", "page-count", "current-page", "layout", "page-sizes", "size-change", "current-page"],
+    "defaults": [":total", "@current-page", "layout"]
+  },
+  "el-badge": {
+    "attributes": ["value", "max", "is-dot", "hidden"],
+    "defaults": ["value"]
+  },
+  "el-alert": {
+    "attributes": ["title", "type", "description", "closable", "close-text", "show-icon", "close"],
+    "defaults": ["type", "title"]
+  },
+  "el-menu": {
+    "attributes": ["mode", "theme", "default-active", "default-openeds", "unique-opened", "menu-trigger", "router", "open", "close"],
+    "defaults": ["default-active", ""],
+    "subtags": ["el-submenu", "el-menu-item"]
+  },
+  "el-submenu": {
+    "attribute": ["index"],
+    "defaults": ["index"],
+    "subtags": ["el-menu-item"]
+  },
+  "el-menu-item-group": {
+    "attributes": ["title"],
+    "subtags": ["el-menu-item"]
+  },
+  "el-menu-item": {
+    "attributes": ["index", "route"],
+    "defaults": ["index"]
+  },
+  "el-tabs": {
+    "attributes": ["type", "closable", "addable", "editable", "value", "activate-name", "tab-click", "tab-remove", "tab-add", "edit"],
+    "subtags": ["el-tab-pane"]
+  },
+  "el-tab-pane": {
+    "attributes": ["label", "disabled", "name", "closable"]
+  },
+  "el-breadcrumb": {
+    "attributes": ["separator"],
+    "defaults": ["separator"],
+    "subtags": ["el-breadcrumb-item"]
+  },
+  "el-breadcrumb-item": {
+    "attributes": ["to", "replace"]
+  },
+  "el-dropdown": {
+    "attributes": ["type", "szie", "split-button", "menu-align", "trigger", "hide-on-click", "click", "command", "visible-change"],
+    "subtags": ["el-dropdown-menu"]
+  },
+  "el-dropdown-menu": {
+    "attributes": ["slot"],
+    "defaults": ["slot"],
+    "subtags": ["el-dropdown-item"]
+  },
+  "el-dropdown-menu": {
+    "attributes": ["command", "disabled", "divided"]
+  },
+  "el-steps": {
+    "attributes": ["space", "direction", "active", "process-status", "align-center", "center"],
+    "defaults": [":space", ":active"],
+    "subtags": ["el-step"]
+  },
+  "el-step": {
+    "attributes": ["title", "description", "icon", "status"],
+    "defaults": ["title"]
+  },
+  "el-dialog": {
+    "attributes": ["title", "top", "visible", "size", "modal", "modal-append-to-body", "lock-scroll", "custom-class", "close-on-click-modal", "show-close", "before-close", "close", "open"],
+    "defaults": ["title"]
+  },
+  "el-tooltip": {
+    "attributes": ["effect", "content", "placement", "value", "disabled", "offset", "transition", "visible-arrow", "popper-options", "open-delay", "manual", "popper-class", "enterable"],
+    "defaults": ["placement"]
+  },
+  "el-popover": {
+    "attributes": ["trigger", "title", "content", "width", "placement", "disabled", "value", "offset", "transition", "visible-arrow", "popper-options", "popper-class", "show", "hide"],
+    "defaults": ["placement"]
+  },
+  "el-card": {
+    "attributes": ["header", "body-style"]
+  },
+  "el-carousel": {
+    "attributes": ["height", "initial-index", "trigger", "autoplay", "interval", "indicator-position", "arrow", "type", "change"],
+    "subtags": ["el-carousel-item"]
+  },
+  "el-carousel-item": {
+    "attributes": ["name", "label"]
+  },
+  "el-collapse": {
+    "attributes": ["accordion", "value", "change"],
+    "subtags": ["el-collapse-item"]
+  },
+  "el-collapse-item": {
+    "attributes": ["name", "title"],
+    "defaults": ["name", "title"]
+  }
+}
