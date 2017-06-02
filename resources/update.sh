@@ -1,12 +1,13 @@
 #!/bin/bash
 
-cd ./element-gh-pages
-
-if [ x$1 = x ];then
+if [ x$1 != x ];then
+  mkdir element-gh-pages
+  cd element-gh-pages
   git init
   git remote add -t gh-pages -f origin git@github.com:ElemeFE/element.git
   git checkout gh-pages
 else
+  cd element-gh-pages
   git branch -D temp
   git checkout -b temp
 
