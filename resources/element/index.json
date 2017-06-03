@@ -212,6 +212,13 @@
     },
     {
       "type": "data",
+      "name": "Table 表格",
+      "path": "table",
+      "tag": "el-table-column",
+      "description": "el-table-column,Table 表格"
+    },
+    {
+      "type": "data",
       "name": "Tag 标签",
       "path": "tag",
       "tag": "el-tag",
