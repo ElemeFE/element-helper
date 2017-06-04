@@ -1,6 +1,6 @@
 # element-helper package
 
-snippets, autocomplete, document
+snippets, autocomplete, document of element-ui
 
 ## document
 ctrl + cmd + s

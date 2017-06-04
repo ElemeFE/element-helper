@@ -2,7 +2,7 @@
   "name": "element-helper",
   "main": "./lib/element-helper",
   "version": "0.2.0",
-  "description": "A short description of your package",
+  "description": "element-ui helper",
   "keywords": [],
   "repository": "https://github.com/ShowJoy/element-helper",
   "license": "MIT",
