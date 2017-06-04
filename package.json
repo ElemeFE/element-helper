@@ -1,7 +1,7 @@
 {
   "name": "element-helper",
   "main": "./lib/element-helper",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "element-ui helper",
   "keywords": [],
   "repository": "https://github.com/ShowJoy/element-helper",
