@@ -61,7 +61,7 @@ Default hot key is  `ctrl + cmd + z`. If it has conflicts with other software's 
 
 * Distinguish and auto complete property and method for every Element-UI tag
 
-* Prompt value when value is some special type like boolean or icon.
+* Prompt value when value is some special type like Boolean or ICON.
 
 
 ## Snippets
