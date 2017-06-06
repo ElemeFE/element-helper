@@ -59,7 +59,7 @@ Default hot key is  `ctrl + cmd + z`. If it has conflicts with other software's 
 
 ![autocomplete](https://cloud.githubusercontent.com/assets/1659577/26758337/e0417b1e-490d-11e7-87be-c2640d239285.gif)
 
-* Seperate and auto complete property and method for every Element-UI tag
+* Distinguish and auto complete property and method for every Element-UI tag
 
 * Prompt value when value is some special type like boolean or icon.
 
