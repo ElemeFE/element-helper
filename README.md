@@ -2,7 +2,7 @@
 
 > Element-Helper is a Atom package for Element-UI.
 
-Element-UI is a great library. More and more teams and projects use it. So, for helping developer write by Element-UI faster and more comfortable, Element-Helper is born.
+Element-UI is a great library. More and more projects use it. So, For helping developer write by Element-UI more efficient, Element-Helper is born.
 
 ## Feature
 
@@ -11,7 +11,6 @@ Element-UI is a great library. More and more teams and projects use it. So, for 
 * Autocomplete
 
 * Snippets
-
 
 
 ## Document
@@ -55,6 +54,7 @@ Default hot key is  `ctrl + cmd + z`. If it has conflicts with other software's 
   "ctrl-alt-z": "element-helper:search-under-cursor"
 ```
 
+
 ## Autocomplete
 
 ![autocomplete](https://cloud.githubusercontent.com/assets/1659577/26758337/e0417b1e-490d-11e7-87be-c2640d239285.gif)
@@ -67,6 +67,8 @@ Default hot key is  `ctrl + cmd + z`. If it has conflicts with other software's 
 ## Snippets
 
 ![snippets](https://cloud.githubusercontent.com/assets/1659577/26758333/b8c2b3c8-490d-11e7-9349-666e47712860.gif)
+
+Support snippets list:
 
 * `msg`
 
@@ -130,3 +132,11 @@ Default hot key is  `ctrl + cmd + z`. If it has conflicts with other software's 
     message: ''
   });
   ```
+
+## Contribution
+
+Your pull request will make Element-Helper better.
+
+## LICENSE
+
+MIT
