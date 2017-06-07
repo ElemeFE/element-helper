@@ -21,7 +21,7 @@ Element-UI is a great library. More and more projects use it. So, For helping de
 
 2 - Press default hot key `ctrl + cmd + z`
 
-3 - Select tag you wanna search
+3 - Select tag you want to search
 
 4 - Enter and trigger document browser
 
