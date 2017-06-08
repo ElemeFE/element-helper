@@ -1,3 +1,5 @@
+## 0.3.0 - Add menu
+
 ## 0.2.3 - Update Document
 
 ## 0.2.2 - Change keymap
