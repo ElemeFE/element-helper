@@ -4,7 +4,7 @@
   "version": "0.3.0",
   "description": "Element-Helper is a Atom package and support snippets, autocomplete and document.",
   "keywords": [],
-  "repository": "https://github.com/ShowJoy/element-helper",
+  "repository": "https://github.com/ElemeFE/element-helper",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
