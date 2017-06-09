@@ -21,7 +21,7 @@ Element-UI is a great library. More and more projects use it. So, For helping de
 
 2 - Press default hot key `ctrl + cmd + z`
 
-3 - Select tag you wanna search
+3 - Select tag you want to search
 
 4 - Enter and trigger document browser
 
@@ -59,9 +59,9 @@ Default hot key is  `ctrl + cmd + z`. If it has conflicts with other software's 
 
 ![autocomplete](https://cloud.githubusercontent.com/assets/1659577/26758337/e0417b1e-490d-11e7-87be-c2640d239285.gif)
 
-* Seperate and auto complete property and method for every Element-UI tag
+* Distinguish and auto complete property and method for every Element-UI tag
 
-* Prompt value when value is some special type like boolean or icon.
+* Prompt value when value is some special type like Boolean or ICON.
 
 
 ## Snippets
