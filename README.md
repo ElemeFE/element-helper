@@ -25,7 +25,7 @@ Element-UI is a great library. More and more projects use it. So, For helping de
 
 4 - Enter and trigger document browser
 
-![document](https://cloud.githubusercontent.com/assets/1659577/26758318/652e911e-490d-11e7-9c69-b0a7319f0ba4.gif)
+![document](https://user-images.githubusercontent.com/1659577/27280445-8077e646-551a-11e7-93c0-fb577020c841.gif)
 
 ### Version and Language Switching
 

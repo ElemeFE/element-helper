@@ -1,7 +1,8 @@
 ## 0.3.2
 * add loading animation
 * fix title change problem
-* fetch attrs and tags json files from npm;
+* fetch attrs and tags json files from npm
+* update document.gif
 * other optimize
 
 ## 0.3.1 - Modify description

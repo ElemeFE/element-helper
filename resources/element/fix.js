@@ -1,5 +1,6 @@
 'use strict';
 
+$(document.body).css('display', 'none');
 $(window).on('load', () => {
   const container = $('.page-container.page-component');
   container.find('.el-row .el-col:nth-child(2)').first().attr('class', "page-container-right").css('margin-left', '20px');
@@ -22,5 +23,6 @@ $(window).on('load', () => {
     window.parent.postMessage({ title: this.textContent }, '*');
     $('.description button').remove();
   });
+  $(document.body).css('display', 'block');
   window.parent.postMessage({ loaded: true }, '*');
 });
