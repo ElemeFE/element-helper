@@ -19,6 +19,7 @@
   "dependencies": {
     "atom-space-pen-views": "^2.0.0",
     "cheerio": "^1.0.0-rc.1",
+    "element-helper-json": "^1.0.0",
     "follow-redirects": "^1.2.3",
     "jquery": "^2",
     "mkdirp": "^0.5.0",

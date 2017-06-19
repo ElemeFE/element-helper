@@ -17,8 +17,7 @@
   text-decoration: underline;
 }
 
-.el-loading-mask, .move-mask {
-    display: none;
+.element-helper-loading-mask, .element-helper-move-mask {
     position: absolute;
     z-index: 10000;
     background-color: hsla(0,0%,100%,.9);
@@ -29,24 +28,25 @@
     left: 0;
     transition: opacity .3s
 }
-.move-mask {
+.element-helper-move-mask {
+  display: none;
   background-color: hsla(0,0%,100%,0);
 }
 
-.el-loading-mask.is-fullscreen {
+.element-helper-loading-mask.is-fullscreen {
     position: fixed
 }
 
-.el-loading-mask.is-fullscreen .el-loading-spinner {
+.element-helper-loading-mask.is-fullscreen .element-helper-loading-spinner {
     margin-top: -25px
 }
 
-.el-loading-mask.is-fullscreen .el-loading-spinner .circular {
+.element-helper-loading-mask.is-fullscreen .element-helper-loading-spinner .circular {
     width: 50px;
     height: 50px
 }
 
-.el-loading-spinner {
+.element-helper-loading-spinner {
     top: 50%;
     margin-top: -21px;
     width: 100%;
@@ -54,19 +54,19 @@
     position: absolute
 }
 
-.el-loading-spinner .el-loading-text {
+.element-helper-loading-spinner .element-helper-loading-text {
     color: #20a0ff;
     margin: 3px 0;
     font-size: 14px
 }
 
-.el-loading-spinner .circular {
+.element-helper-loading-spinner .circular {
     width: 42px;
     height: 42px;
     animation: loading-rotate 2s linear infinite
 }
 
-.el-loading-spinner .path {
+.element-helper-loading-spinner .path {
     animation: loading-dash 1.5s ease-in-out infinite;
     stroke-dasharray: 90,150;
     stroke-dashoffset: 0;
@@ -75,7 +75,7 @@
     stroke-linecap: round
 }
 
-.el-loading-fade-enter,.el-loading-fade-leave-active {
+.element-helper-loading-fade-enter,.element-helper-loading-fade-leave-active {
     opacity: 0
 }
 

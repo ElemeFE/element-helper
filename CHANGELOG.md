@@ -1,3 +1,11 @@
+## 0.3.2
+* add loading animation
+* fix title change problem
+* fetch attrs and tags json files from npm;
+* other optimize
+
+## 0.3.1 - Modify description
+
 ## 0.3.0 - Add menu
 
 ## 0.2.3 - Update Document

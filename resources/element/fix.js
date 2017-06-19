@@ -1,8 +1,6 @@
 'use strict';
 
-$(document.body).css('display', 'none');
 $(window).on('load', () => {
-  $(document.body).css('display', 'block');
   const container = $('.page-container.page-component');
   container.find('.el-row .el-col:nth-child(2)').first().attr('class', "page-container-right").css('margin-left', '20px');
   let menu = container.find('.el-row .el-col:nth-child(1)').first();
@@ -20,4 +18,9 @@ $(window).on('load', () => {
     container.children().attr('class', 'show-menu');
     container.find('.menu-button').text('<<');
   });
+  container.on('click', '.side-nav .nav-item a', function () {
+    window.parent.postMessage({ title: this.textContent }, '*');
+    $('.description button').remove();
+  });
+  window.parent.postMessage({ loaded: true }, '*');
 });
