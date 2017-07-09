@@ -1,6 +1,6 @@
 # Element-Helper
 
-> Element-Helper is a Atom package for Element-UI.
+> Element-Helper is a Atom package for Element-UI, if you use VSCode editor, please go to [VSCode VERSION](https://marketplace.visualstudio.com/items?itemName=ElemeFE.vscode-element-helper)
 
 Element-UI is a great library. More and more projects use it. So, For helping developer write by Element-UI more efficient, Element-Helper is born.
 
