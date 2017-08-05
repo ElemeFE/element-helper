@@ -2,7 +2,9 @@
   background-color: white;
   overflow: auto;
 }
-
+.element-helper-docs-container .docs-version {
+  color: #50bfff;
+}
 .element-helper-docs-container .docs-notice {
   position: absolute;
   right: 10px;
