@@ -1,7 +1,7 @@
 {
   "name": "element-helper",
   "main": "./lib/element-helper",
-  "version": "0.4.1",
+  "version": "0.5.0",
   "description": "Element-Helper is a Atom package and support snippets, autocomplete and document.",
   "keywords": [],
   "repository": "https://github.com/ElemeFE/element-helper",
