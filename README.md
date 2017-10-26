@@ -43,7 +43,7 @@ Document is off-line and auto synchronize with Element-UI official site.
 
 ### Keymap
 
-Default hot key is  `ctrl + cmd + z`. If it has conflicts with other software's hot key. You can customize it.
+Default hot key is  `ctrl + cmd + z`. If it has conflicted with other software's hot key. You can customize it.
 
 1 - Enter `Atom` -> `Keymap`
 
